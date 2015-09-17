@@ -48,12 +48,12 @@ run_analysis <- function()
   tableCombineX <- rbind(tableTest_X, tableTrain_X) # combine the train and test data by
   tableCombineLabels <- rbind(tableTestLabels, tableTrainLabels) # combine train and test Activities by row
   tableCombineLabels <- rename(tableCombineLabels, Activity = V1) #rename column with Test Subject Activity
-  tableCombineLabels$Activity <- gsub("1", "Walking", tableCombineLabels$Activity) #rename activity 1 walking
-  tableCombineLabels$Activity <- gsub("2", "WalkingUpStairs", tableCombineLabels$Activity) #rename activit 2 walkink up stairs
-  tableCombineLabels$Activity <- gsub("3", "WalkingDownStairs", tableCombineLabels$Activity) # rename activity 3 walkin down stairs
-  tableCombineLabels$Activity <- gsub("4", "Sitting", tableCombineLabels$Activity) # rename activity 4 sitting
-  tableCombineLabels$Activity <- gsub("5", "Standing", tableCombineLabels$Activity) # rename activity 5 standing
-  tableCombineLabels$Activity <- gsub("6", "Laying", tableCombineLabels$Activity) #vvrename activity 6 laying
+  tableCombineLabels$Activity <- gsub("1", "                  Walking", tableCombineLabels$Activity) #rename activity 1 walking
+  tableCombineLabels$Activity <- gsub("2", "          WalkingUpStairs", tableCombineLabels$Activity) #rename activit 2 walkink up stairs
+  tableCombineLabels$Activity <- gsub("3", "        WalkingDownStairs", tableCombineLabels$Activity) # rename activity 3 walkin down stairs
+  tableCombineLabels$Activity <- gsub("4", "                  Sitting", tableCombineLabels$Activity) # rename activity 4 sitting
+  tableCombineLabels$Activity <- gsub("5", "                 Standing", tableCombineLabels$Activity) # rename activity 5 standing
+  tableCombineLabels$Activity <- gsub("6", "                   Laying", tableCombineLabels$Activity) #vvrename activity 6 laying
   tableCombineSubjectID <- rbind(tableSubjectTest, tableSubjectTrain)# Combine test subject ID
   tableCombineSubjectID <- rename(tableCombineSubjectID, TestSubjectID = V1)#rename   coulm with Test Subject ID number
   tableData <- cbind(tableCombineX, tableCombineLabels, tableCombineSubjectID) #data combined in one dataset

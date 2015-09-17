@@ -1,181 +1,181 @@
 "TestSubjectID"  "Activity"  "ActivityAverage"
-1  "Laying"  -0.09652567
-1  "Sitting"  -0.35549604
-1  "Standing"  -0.21141549
-1  "Walking"  0.28202157
-1  "WalkingDownStairs"  0.35845532
-1  "WalkingUpStairs"  0.18360372
-2  "Laying"  -0.32623095
-2  "Sitting"  -0.20351286
-2  "Standing"  -0.24282222
-2  "Walking"  0.20396243
-2  "WalkingDownStairs"  0.39276304
-2  "WalkingUpStairs"  0.25186651
-3  "Laying"  -0.23692693
-3  "Sitting"  -0.1743464
-3  "Standing"  0.23601277
-3  "Walking"  -0.16385072
-3  "WalkingDownStairs"  0.1954509
-3  "WalkingUpStairs"  0.058825669
-4  "Laying"  0.051028466
-4  "Sitting"  -0.30985711
-4  "Standing"  0.19918776
-4  "Walking"  -0.19084596
-4  "WalkingDownStairs"  -0.17139269
-4  "WalkingUpStairs"  -0.13676009
-5  "Laying"  -0.27383925
-5  "Sitting"  -0.37919936
-5  "Standing"  0.19695721
-5  "Walking"  0.25043299
-5  "WalkingDownStairs"  0.26375943
-5  "WalkingUpStairs"  0.17910807
-6  "Laying"  0.01565423
-6  "Sitting"  -0.24812926
-6  "Standing"  -0.20700354
-6  "Walking"  0.2607563
-6  "WalkingDownStairs"  0.23405608
-6  "WalkingUpStairs"  0.25738042
-7  "Laying"  -0.40995186
-7  "Sitting"  -0.17709927
-7  "Standing"  -0.21708676
-7  "Walking"  0.20806983
-7  "WalkingDownStairs"  0.24045018
-7  "WalkingUpStairs"  0.16640903
-8  "Laying"  -0.12432524
-8  "Sitting"  0.032150855
-8  "Standing"  -0.19934291
-8  "Walking"  0.20827927
-8  "WalkingDownStairs"  0.3120884
-8  "WalkingUpStairs"  0.1339655
-9  "Laying"  -0.41627026
-9  "Sitting"  -0.26620235
-9  "Standing"  -0.22088469
-9  "Walking"  0.25692753
-9  "WalkingDownStairs"  -0.13510196
-9  "WalkingUpStairs"  0.19583759
-10  "Laying"  0.17188749
-10  "Sitting"  -0.35680989
-10  "Standing"  -0.20489566
-10  "Walking"  0.18446909
-10  "WalkingDownStairs"  0.3862422
-10  "WalkingUpStairs"  0.10569277
-11  "Laying"  -0.1367997
-11  "Sitting"  -0.27654464
-11  "Standing"  -0.2269614
-11  "Walking"  0.1546883
-11  "WalkingDownStairs"  -0.07054863
-11  "WalkingUpStairs"  -0.27088873
-12  "Laying"  -0.52106206
-12  "Sitting"  -0.33347997
-12  "Standing"  -0.21633078
-12  "Walking"  0.23063284
-12  "WalkingDownStairs"  0.23924751
-12  "WalkingUpStairs"  0.17073838
-13  "Laying"  -0.22206354
-13  "Sitting"  -0.23019307
-13  "Standing"  -0.22349053
-13  "Walking"  0.25140023
-13  "WalkingDownStairs"  0.37986338
-13  "WalkingUpStairs"  0.18312961
-14  "Laying"  -0.27857371
-14  "Sitting"  -0.252162
-14  "Standing"  -0.23237599
-14  "Walking"  0.18216148
-14  "WalkingDownStairs"  -0.0351294
-14  "WalkingUpStairs"  0.10900062
-15  "Laying"  -0.12264594
-15  "Sitting"  -0.409781212
-15  "Standing"  -0.21615634
-15  "Walking"  0.30616139
-15  "WalkingDownStairs"  0.27665913
-15  "WalkingUpStairs"  -0.219103
-16  "Laying"  -0.13843736
-16  "Sitting"  0.05913494
-16  "Standing"  -0.22254787
-16  "Walking"  0.23590065
-16  "WalkingDownStairs"  -0.0324212
-16  "WalkingUpStairs"  0.078542448
-17  "Laying"  -0.17947737
-17  "Sitting"  -0.16453826
-17  "Standing"  -0.22816894
-17  "Walking"  0.26925765
-17  "WalkingDownStairs"  0.28716589
-17  "WalkingUpStairs"  0.03515894
-18  "Laying"  -0.2377084
-18  "Sitting"  -0.22983873
-18  "Standing"  -0.22141273
-18  "Walking"  -0.24411183
-18  "WalkingDownStairs"  -0.11267714
-18  "WalkingUpStairs"  -0.18742909
-19  "Laying"  -0.2365077
-19  "Sitting"  -0.28476792
-19  "Standing"  -0.22928664
-19  "Walking"  0.28232928
-19  "WalkingDownStairs"  0.26823055
-19  "WalkingUpStairs"  0.047593491
-20  "Laying"  -0.47255704
-20  "Sitting"  -0.27146668
-20  "Standing"  -0.22282016
-20  "Walking"  0.19304071
-20  "WalkingDownStairs"  0.44484286
-20  "WalkingUpStairs"  -0.047663634
-21  "Laying"  0.070999584
-21  "Sitting"  -0.25305765
-21  "Standing"  -0.25465007
-21  "Walking"  0.29701681
-21  "WalkingDownStairs"  -0.04140035
-21  "WalkingUpStairs"  0.14842824
-22  "Laying"  0.12543425
-22  "Sitting"  -0.21406511
-22  "Standing"  -0.22727119
-22  "Walking"  0.27621498
-22  "WalkingDownStairs"  -0.1198507
-22  "WalkingUpStairs"  0.12878424
-23  "Laying"  -0.2362093
-23  "Sitting"  -0.28117308
-23  "Standing"  -0.22506141
-23  "Walking"  0.13105294
-23  "WalkingDownStairs"  0.27506965
-23  "WalkingUpStairs"  0.17812721
-24  "Laying"  -0.25750503
-24  "Sitting"  -0.29350229
-24  "Standing"  -0.22131426
-24  "Walking"  0.28451404
-24  "WalkingDownStairs"  0.38630663
-24  "WalkingUpStairs"  0.22988779
-25  "Laying"  -0.50382267
-25  "Sitting"  -0.27318816
-25  "Standing"  -0.19514249
-25  "Walking"  -0.19624943
-25  "WalkingDownStairs"  0.26091345
-25  "WalkingUpStairs"  -0.20235402
-26  "Laying"  0.0011888261
-26  "Sitting"  -0.33759219
-26  "Standing"  -0.22790672
-26  "Walking"  0.2854752
-26  "WalkingDownStairs"  -0.19782303
-26  "WalkingUpStairs"  0.33008434
-27  "Laying"  -0.29219846
-27  "Sitting"  -0.39518833
-27  "Standing"  -0.22120931
-27  "Walking"  0.26216154
-27  "WalkingDownStairs"  -0.08633286
-27  "WalkingUpStairs"  -0.20585262
-28  "Laying"  -0.19685397
-28  "Sitting"  -0.32194015
-28  "Standing"  -0.21461178
-28  "Walking"  -0.21343688
-28  "WalkingDownStairs"  0.28939983
-28  "WalkingUpStairs"  0.14131155
-29  "Laying"  -0.03806198
-29  "Sitting"  -0.2488828
-29  "Standing"  -0.22401129
-29  "Walking"  0.27247382
-29  "WalkingDownStairs"  -0.08550853
-29  "WalkingUpStairs"  0.20360159
-30  "Laying"  -0.21117901
-30  "Sitting"  -0.27191632
-30  "Standing"  -0.22846764
-30  "Walking"  0.21862421
-30  "WalkingDownStairs"  0.30671114
-30  "WalkingUpStairs"  -0.30124508
+1  "                   Laying"  -0.09652567
+1  "                  Sitting"  -0.35549604
+1  "                  Walking"  0.28202157
+1  "                 Standing"  -0.21141549
+1  "          WalkingUpStairs"  0.18360372
+1  "        WalkingDownStairs"  0.35845532
+2  "                   Laying"  -0.32623095
+2  "                  Sitting"  -0.20351286
+2  "                  Walking"  0.20396243
+2  "                 Standing"  -0.24282222
+2  "          WalkingUpStairs"  0.25186651
+2  "        WalkingDownStairs"  0.39276304
+3  "                   Laying"  -0.23692693
+3  "                  Sitting"  -0.1743464
+3  "                  Walking"  -0.16385072
+3  "                 Standing"  0.23601277
+3  "          WalkingUpStairs"  0.058825669
+3  "        WalkingDownStairs"  0.1954509
+4  "                   Laying"  0.051028466
+4  "                  Sitting"  -0.30985711
+4  "                  Walking"  -0.19084596
+4  "                 Standing"  0.19918776
+4  "          WalkingUpStairs"  -0.13676009
+4  "        WalkingDownStairs"  -0.17139269
+5  "                   Laying"  -0.27383925
+5  "                  Sitting"  -0.37919936
+5  "                  Walking"  0.25043299
+5  "                 Standing"  0.19695721
+5  "          WalkingUpStairs"  0.17910807
+5  "        WalkingDownStairs"  0.26375943
+6  "                   Laying"  0.01565423
+6  "                  Sitting"  -0.24812926
+6  "                  Walking"  0.2607563
+6  "                 Standing"  -0.20700354
+6  "          WalkingUpStairs"  0.25738042
+6  "        WalkingDownStairs"  0.23405608
+7  "                   Laying"  -0.40995186
+7  "                  Sitting"  -0.17709927
+7  "                  Walking"  0.20806983
+7  "                 Standing"  -0.21708676
+7  "          WalkingUpStairs"  0.16640903
+7  "        WalkingDownStairs"  0.24045018
+8  "                   Laying"  -0.12432524
+8  "                  Sitting"  0.032150855
+8  "                  Walking"  0.20827927
+8  "                 Standing"  -0.19934291
+8  "          WalkingUpStairs"  0.1339655
+8  "        WalkingDownStairs"  0.3120884
+9  "                   Laying"  -0.41627026
+9  "                  Sitting"  -0.26620235
+9  "                  Walking"  0.25692753
+9  "                 Standing"  -0.22088469
+9  "          WalkingUpStairs"  0.19583759
+9  "        WalkingDownStairs"  -0.13510196
+10  "                   Laying"  0.17188749
+10  "                  Sitting"  -0.35680989
+10  "                  Walking"  0.18446909
+10  "                 Standing"  -0.20489566
+10  "          WalkingUpStairs"  0.10569277
+10  "        WalkingDownStairs"  0.3862422
+11  "                   Laying"  -0.1367997
+11  "                  Sitting"  -0.27654464
+11  "                  Walking"  0.1546883
+11  "                 Standing"  -0.2269614
+11  "          WalkingUpStairs"  -0.27088873
+11  "        WalkingDownStairs"  -0.07054863
+12  "                   Laying"  -0.52106206
+12  "                  Sitting"  -0.33347997
+12  "                  Walking"  0.23063284
+12  "                 Standing"  -0.21633078
+12  "          WalkingUpStairs"  0.17073838
+12  "        WalkingDownStairs"  0.23924751
+13  "                   Laying"  -0.22206354
+13  "                  Sitting"  -0.23019307
+13  "                  Walking"  0.25140023
+13  "                 Standing"  -0.22349053
+13  "          WalkingUpStairs"  0.18312961
+13  "        WalkingDownStairs"  0.37986338
+14  "                   Laying"  -0.27857371
+14  "                  Sitting"  -0.252162
+14  "                  Walking"  0.18216148
+14  "                 Standing"  -0.23237599
+14  "          WalkingUpStairs"  0.10900062
+14  "        WalkingDownStairs"  -0.0351294
+15  "                   Laying"  -0.12264594
+15  "                  Sitting"  -0.409781212
+15  "                  Walking"  0.30616139
+15  "                 Standing"  -0.21615634
+15  "          WalkingUpStairs"  -0.219103
+15  "        WalkingDownStairs"  0.27665913
+16  "                   Laying"  -0.13843736
+16  "                  Sitting"  0.05913494
+16  "                  Walking"  0.23590065
+16  "                 Standing"  -0.22254787
+16  "          WalkingUpStairs"  0.078542448
+16  "        WalkingDownStairs"  -0.0324212
+17  "                   Laying"  -0.17947737
+17  "                  Sitting"  -0.16453826
+17  "                  Walking"  0.26925765
+17  "                 Standing"  -0.22816894
+17  "          WalkingUpStairs"  0.03515894
+17  "        WalkingDownStairs"  0.28716589
+18  "                   Laying"  -0.2377084
+18  "                  Sitting"  -0.22983873
+18  "                  Walking"  -0.24411183
+18  "                 Standing"  -0.22141273
+18  "          WalkingUpStairs"  -0.18742909
+18  "        WalkingDownStairs"  -0.11267714
+19  "                   Laying"  -0.2365077
+19  "                  Sitting"  -0.28476792
+19  "                  Walking"  0.28232928
+19  "                 Standing"  -0.22928664
+19  "          WalkingUpStairs"  0.047593491
+19  "        WalkingDownStairs"  0.26823055
+20  "                   Laying"  -0.47255704
+20  "                  Sitting"  -0.27146668
+20  "                  Walking"  0.19304071
+20  "                 Standing"  -0.22282016
+20  "          WalkingUpStairs"  -0.047663634
+20  "        WalkingDownStairs"  0.44484286
+21  "                   Laying"  0.070999584
+21  "                  Sitting"  -0.25305765
+21  "                  Walking"  0.29701681
+21  "                 Standing"  -0.25465007
+21  "          WalkingUpStairs"  0.14842824
+21  "        WalkingDownStairs"  -0.04140035
+22  "                   Laying"  0.12543425
+22  "                  Sitting"  -0.21406511
+22  "                  Walking"  0.27621498
+22  "                 Standing"  -0.22727119
+22  "          WalkingUpStairs"  0.12878424
+22  "        WalkingDownStairs"  -0.1198507
+23  "                   Laying"  -0.2362093
+23  "                  Sitting"  -0.28117308
+23  "                  Walking"  0.13105294
+23  "                 Standing"  -0.22506141
+23  "          WalkingUpStairs"  0.17812721
+23  "        WalkingDownStairs"  0.27506965
+24  "                   Laying"  -0.25750503
+24  "                  Sitting"  -0.29350229
+24  "                  Walking"  0.28451404
+24  "                 Standing"  -0.22131426
+24  "          WalkingUpStairs"  0.22988779
+24  "        WalkingDownStairs"  0.38630663
+25  "                   Laying"  -0.50382267
+25  "                  Sitting"  -0.27318816
+25  "                  Walking"  -0.19624943
+25  "                 Standing"  -0.19514249
+25  "          WalkingUpStairs"  -0.20235402
+25  "        WalkingDownStairs"  0.26091345
+26  "                   Laying"  0.0011888261
+26  "                  Sitting"  -0.33759219
+26  "                  Walking"  0.2854752
+26  "                 Standing"  -0.22790672
+26  "          WalkingUpStairs"  0.33008434
+26  "        WalkingDownStairs"  -0.19782303
+27  "                   Laying"  -0.29219846
+27  "                  Sitting"  -0.39518833
+27  "                  Walking"  0.26216154
+27  "                 Standing"  -0.22120931
+27  "          WalkingUpStairs"  -0.20585262
+27  "        WalkingDownStairs"  -0.08633286
+28  "                   Laying"  -0.19685397
+28  "                  Sitting"  -0.32194015
+28  "                  Walking"  -0.21343688
+28  "                 Standing"  -0.21461178
+28  "          WalkingUpStairs"  0.14131155
+28  "        WalkingDownStairs"  0.28939983
+29  "                   Laying"  -0.03806198
+29  "                  Sitting"  -0.2488828
+29  "                  Walking"  0.27247382
+29  "                 Standing"  -0.22401129
+29  "          WalkingUpStairs"  0.20360159
+29  "        WalkingDownStairs"  -0.08550853
+30  "                   Laying"  -0.21117901
+30  "                  Sitting"  -0.27191632
+30  "                  Walking"  0.21862421
+30  "                 Standing"  -0.22846764
+30  "          WalkingUpStairs"  -0.30124508
+30  "        WalkingDownStairs"  0.30671114
