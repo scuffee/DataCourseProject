@@ -100,6 +100,30 @@ run_analysis <- function()
   
 tableDataScrub <- arrange(tableDataScrub, TestSubjectID, Activity) #arrange data by subject Id and actvity
 testSubject <- group_by(tableDataScrub, TestSubjectID,Activity) #group the activity by subject ID
-tidyData <- summarize(testSubject, ActivityAverage = mean(tBodyAccmeanX : fBodyBodyGyroJerkMagstd))
-write.table(tidyData, file = "tidydata.txt",sep = "  ", row.names = FALSE) #print the results to the tidyData.txt file 
+tidyData <- summarize(testSubject, AvgtBodyAccmeanX = mean(tBodyAccmeanX), AvgtBodyAccmeanY= mean(tBodyAccmeanY), AvgtBodyAccmeanZ = mean(tBodyAccmeanZ),
+                      AvgtBodyAccstdX = mean(tBodyAccstdX), AvgtBodyAccstdY = mean(tBodyAccstdY), AvgtBodyAccstdZ = mean(tBodyAccstdZ),
+                      AvgtGravityAccmeanX = mean(tGravityAccmeanX),AvgtGravityAccmeanY = mean(tGravityAccmeanY), AvgtGravityAccmeanZ = mean(tGravityAccmeanZ),
+                      AvgtGravityAccstdX = mean(tGravityAccstdX), AvgtGravityAccstdY = mean(tGravityAccstdY), AvgtGravityAccstdZ = mean(tGravityAccstdZ) ,
+                      AvgtBodyAccJerkmeanX = mean(tBodyAccJerkmeanX), AvgtBodyAccJerkmeanY = mean(tBodyAccJerkmeanY), AvgtBodyAccJerkmeanZ = mean(tBodyAccJerkmeanZ),
+                      AvgtBodyAccJerkstdX = mean(tBodyAccJerkstdX), AvgtBodyAccJerkstdY = mean(tBodyAccJerkstdY), AvgtBodyAccJerkstdZ = mean(tBodyAccJerkstdZ),
+                      AvgtBodyGyromeanX = mean(tBodyGyromeanX), AvgtBodyGyromeanY = mean(tBodyGyromeanY), AvgtBodyGyromeanZ = mean(tBodyGyromeanZ),
+                      AvgtBodyGyrostdX = mean(tBodyGyrostdX),AvgtBodyGyrostdY = mean(tBodyGyrostdY), AvgtBodyGyrostdZ = mean(tBodyGyrostdZ),
+                      AvgtBodyGyroJerkmeanX = mean(tBodyGyroJerkmeanX), AvgtBodyGyroJerkmeanY = mean(tBodyGyroJerkmeanY), AvgtBodyGyroJerkmeanZ = mean(tBodyGyroJerkmeanZ),
+                      AvgtBodyGyroJerkstdX = mean(tBodyGyroJerkstdX), AvgtBodyGyroJerkstdY = mean(tBodyGyroJerkstdY), AvgtBodyGyroJerkstdZ = mean(tBodyGyroJerkstdZ),
+                      AvgtBodyAccMagmean = mean(tBodyAccMagmean), AvgtBodyAccMagstd = mean(tBodyAccMagstd), AvgGravityAccMagmean = mean(GravityAccMagmean), AvgtGravityAccMagstd = mean(tGravityAccMagstd),
+                      AvgtBodyAccJerkMagmean = mean(tBodyAccJerkMagmean), AvgtBodyAccJerkMagstd = mean(tBodyAccJerkMagstd), AvgtBodyGyroMagmean = mean(tBodyGyroMagmean), AvgtBodyGyroMagstd = mean(tBodyGyroMagstd),
+                      AvgtBodyGyroJerkMagmean = mean(tBodyGyroJerkMagmean), AvgtBodyGyroJerkMagstd = mean(tBodyGyroJerkMagstd), AvgfBodyAccmeanX = mean(fBodyAccmeanX),AvgfBodyAccmeanY = mean(fBodyAccmeanY),
+                      AvgfBodyAccmeanZ = mean(fBodyAccmeanZ), AvgfBodyAccstdX = mean(fBodyAccstdX), AvgfBodyAccstdY = mean(fBodyAccstdY), AvgfBodyAccstdZ = mean(fBodyAccstdZ),
+                      AvgfBodyAccJerkmeanX = mean(fBodyAccJerkmeanX), AvgfBodyAccJerkmeanY = mean(fBodyAccJerkmeanY), AvgBodyAccJerkmeanZ = mean(BodyAccJerkmeanZ),
+                      AvgfBodyAccJerkstdX = mean(fBodyAccJerkstdX), AvgfBodyAccJerkstdY = mean(fBodyAccJerkstdY), AvgfBodyAccJerkstdZ = mean(fBodyAccJerkstdZ),
+                      AvgfBodyGyromeanX = mean(fBodyGyromeanX), AvgfBodyGyromeanY = mean(fBodyGyromeanY), AvgfBodyGyromeanZ = mean(fBodyGyromeanZ), AvgfBodyGyrostdX = mean(fBodyGyrostdX),
+                      AvgfBodyGyrostdY = mean(fBodyGyrostdY), AvgfBodyGyrostdZ = mean(fBodyGyrostdZ), AvgfBodyAccMagmean = mean(fBodyAccMagmean), AvgfBodyAccMagstd = mean(fBodyAccMagstd),
+                      AvgfBodyBodyAccJerkMagmean = mean(fBodyBodyAccJerkMagmean), AvgfBodyBodyAccJerkMagstd = mean(fBodyBodyAccJerkMagstd), AvgfBodyBodyGyroMagmean = mean(fBodyBodyGyroMagmean),
+                      AvgfBodyBodyGyroMagstd = mean(fBodyBodyGyroMagstd), AvgfBodyBodyGyroJerkMagmean = mean(fBodyBodyGyroJerkMagmean), AvgfBodyBodyGyroJerkMagstd = mean(fBodyBodyGyroJerkMagstd))
+
+write.table(tidyData, file = "tidydata.txt", row.names = FALSE, col.names = TRUE) #print the results to the tidyData.txt file 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FinalDataSet <- read.table("tidydata.txt", header = TRUE) #create a reader freiendly format of the data set
+View(FinalDataSet) #viwe the tidy data file in reader freiendly format
+
 }

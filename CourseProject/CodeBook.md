@@ -48,3 +48,5 @@ A subset of 66 features were selected from tableData and renamed in tableDataScr
                                           fBodyBodyGyroMagstd = V530, fBodyBodyGyroJerkMagmean = V542, fBodyBodyGyroJerkMagstd = V543)
   
 The data in tableDataScrub was arranged by the subject ID number and activity.  The data was also group by subject ID and activity, summarized using the mean of each activity per subject and written to text file tidydata.txt.
+
+The tidydata.txt file was read as a table and made user friendly viewable in R studio file FinalDataSet.
