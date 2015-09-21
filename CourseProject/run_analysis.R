@@ -121,8 +121,9 @@ tidyData <- summarize(testSubject, AvgtBodyAccmeanX = mean(tBodyAccmeanX), AvgtB
                       AvgfBodyBodyAccJerkMagmean = mean(fBodyBodyAccJerkMagmean), AvgfBodyBodyAccJerkMagstd = mean(fBodyBodyAccJerkMagstd), AvgfBodyBodyGyroMagmean = mean(fBodyBodyGyroMagmean),
                       AvgfBodyBodyGyroMagstd = mean(fBodyBodyGyroMagstd), AvgfBodyBodyGyroJerkMagmean = mean(fBodyBodyGyroJerkMagmean), AvgfBodyBodyGyroJerkMagstd = mean(fBodyBodyGyroJerkMagstd))
 
-write.table(tidyData, file = "tidydata.txt", row.names = FALSE, col.names = TRUE) #print the results to the tidyData.txt file 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+write.table(tidyData, file = "tidydata.txt", sep = " ", row.names = FALSE, col.names = TRUE) #print the results to the tidyData.txt file 
+#---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 FinalDataSet <- read.table("tidydata.txt", header = TRUE) #create a reader freiendly format of the data set
 View(FinalDataSet) #viwe the tidy data file in reader freiendly format
 
