@@ -9,7 +9,7 @@ run_analysis <- function()
   library(dplyr)
   library (tidyr)
   library(stringr)
-  library(reshape2)
+  
   
 #-------------------------------------------------------------------------------------------------------  
 
