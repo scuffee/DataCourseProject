@@ -15,34 +15,34 @@ run_analysis <- function()
 
 #Check to see if requred directory exists, if not create it.  
   
-  if(!file.exists("C:/Users/Owner/Documents/specdata"))
+  if(!file.exists("C:/Users/Sandra/Documents/CleanData/DataCourseProject"))
   {
-    dir.create("C:/Users/Owner/Documents/specdata")
+    dir.create("C:/Users/Sandra/Documents/CleanData/DataCourseProject")
   }
   
 #----------------------------------------------------------------------------------------------------------------------
 #Select file to be downloaded
-#fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 #Download the file to the console
-#download.file(fileUrl, destfile = "C:/Users/Owner/Documents/specdata/2FUCI%20HAR%20Dataset.zip", method = "libcurl")
+download.file(fileUrl, destfile = "C:/Users/Sandra/Documents/CleanData/DataCourseProject/2FUCI%20HAR%20Dataset.zip", method = "libcurl")
 #Record the date and time the file was downloaded
-#dateDownLoaded <- date()
-#print("Date the files were downloaded:")
-#print(dateDownLoaded)
-#print(list.files("C:/Users/Owner/Documents/specdata"))
+dateDownLoaded <- date()
+print("Date the files were downloaded:")
+print(dateDownLoaded)
+print(list.files("C:/Users/Sandra/Documents/CleanData/DataCourseProject/"))
 #Uzip the file
-#unzip("C:/Users/Owner/Documents/specdata/2FUCI%20HAR%20Dataset.zip")
+unzip("C:/Users/Sandra/Documents/CleanData/DataCourseProject/2FUCI%20HAR%20Dataset.zip")
   
 #----------------------------------------------------------------------------------------------------------------------
 #Read the data files
-  tableActivityLabels <- read.table("C:/Users/Owner/Documents/specdata/UCI HAR Dataset/activity_labels.txt")
-  tableFeatures <- read.table("C:/Users/Owner/Documents/specdata/UCI HAR Dataset/features.txt")
-  tableTest_X <- read.table("C:/Users/Owner/Documents/specdata/UCI HAR Dataset/test/x_test.txt")
-  tableTestLabels<- read.table("C:/Users/Owner/Documents/specdata/UCI HAR Dataset/test/y_test.txt", colClasses = "character")
-  tableTrain_X <- read.table("C:/Users/Owner/Documents/specdata/UCI HAR Dataset/train/x_train.txt")
-  tableTrainLabels <- read.table("C:/Users/Owner/Documents/specdata/UCI HAR Dataset/train/y_train.txt", colClasses = "character")
-  tableSubjectTest <- read.table("C:/Users/Owner/Documents/specdata/UCI HAR Dataset/test/subject_test.txt")
-  tableSubjectTrain <- read.table("C:/Users/Owner/Documents/specdata/UCI HAR Dataset/train/subject_train.txt")
+  tableActivityLabels <- read.table("C:/Users/Sandra/Documents/CleanData/DataCourseProject/UCI HAR Dataset/activity_labels.txt")
+  tableFeatures <- read.table("C:/Users/Sandra/Documents/CleanData/DataCourseProject/UCI HAR Dataset/features.txt")
+  tableTest_X <- read.table("C:/Users/Sandra/Documents/CleanData/DataCourseProject/UCI HAR Dataset/test/x_test.txt")
+  tableTestLabels<- read.table("C:/Users/Sandra/Documents/CleanData/DataCourseProject/UCI HAR Dataset/test/y_test.txt", colClasses = "character")
+  tableTrain_X <- read.table("C:/Users/Sandra/Documents/CleanData/DataCourseProject/UCI HAR Dataset/train/x_train.txt")
+  tableTrainLabels <- read.table("C:/Users/Sandra/Documents/CleanData/DataCourseProject/UCI HAR Dataset/train/y_train.txt", colClasses = "character")
+  tableSubjectTest <- read.table("C:/Users/Sandra/Documents/CleanData/DataCourseProject/UCI HAR Dataset/test/subject_test.txt")
+  tableSubjectTrain <- read.table("C:/Users/Sandra/Documents/CleanData/DataCourseProject/UCI HAR Dataset/train/subject_train.txt")
 #------------------------------------------------------------------------------------------------------------------
 #Merge the training and the test data to create one data set.
   tableCombineX <- rbind(tableTest_X, tableTrain_X) # combine the train and test data by
