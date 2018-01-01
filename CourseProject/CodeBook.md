@@ -1,14 +1,14 @@
-the data was retreived from "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+The data was retreived from "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 The file was downloaded to R studio version 3.2.0ann unzipped to Windows 7 OS directory 
-C:/Users/Owner/Documents/specdata and the tables below were read.
-read.table("C:/Users/Owner/Documents/specdata/UCI HAR Dataset/activity_labels.txt")
-read.table("C:/Users/Owner/Documents/specdata/UCI HAR Dataset/features.txt")
-read.table("C:/Users/Owner/Documents/specdata/UCI HAR Dataset/test/x_test.txt")
-read.table("C:/Users/Owner/Documents/specdata/UCI HAR Dataset/test/y_test.txt", colClasses = "character")
-read.table("C:/Users/Owner/Documents/specdata/UCI HAR Dataset/train/x_train.txt")
-read.table("C:/Users/Owner/Documents/specdata/UCI HAR Dataset/train/y_train.txt", colClasses = "character")
-read.table("C:/Users/Owner/Documents/specdata/UCI HAR Dataset/test/subject_test.txt")
-read.table("C:/Users/Owner/Documents/specdata/UCI HAR Dataset/train/subject_train.txt")
+C:/Users/Sandra/Documents/CleanData/DataCourseProject and the tables below were read.
+read.table("C:/Users/Sandra/Documents/CleanData/DataCourseProject/UCI HAR Dataset/activity_labels.txt")
+read.table("C:/Users/Sandra/Documents/CleanData/DataCourseProject/UCI HAR Dataset/features.txt")
+read.table("C:/Users/Sandra/Documents/CleanData/DataCourseProject/UCI HAR Dataset/test/x_test.txt")
+read.table("C:/Users/Sandra/Documents/CleanData/DataCourseProject/UCI HAR Dataset/test/y_test.txt", colClasses = "character")
+read.table("C:/Users/Sandra/Documents/CleanData/DataCourseProject/UCI HAR Dataset/train/x_train.txt")
+read.table("C:/Users/Sandra/Documents/CleanData/DataCourseProject/UCI HAR Dataset/train/y_train.txt", colClasses = "character")
+read.table("C:/Users/Sandra/Documents/CleanData/DataCourseProject/UCI HAR Dataset/test/subject_test.txt")
+read.table("C:/Users/Sandra/Documents/CleanData/DataCourseProject/UCI HAR Dataset/train/subject_train.txt")
 
 Labels 
 tableTestLabels  and tableTextLabels were converted from inter data to character data and combined into one table called tableCombineLabels and consisted of values 1 through 6. tableCombineLabels column V1 was renamed Activity and the values in the column were renamed as listed below:
