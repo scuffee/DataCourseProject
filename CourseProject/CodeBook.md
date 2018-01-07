@@ -1,5 +1,5 @@
 The data was retreived from "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-The file was downloaded to R studio version 3.2.0ann unzipped to Windows 7 OS directory 
+The file was downloaded to R studio version 3.4.1 and unzipped to Windows 10 OS directory 
 C:/Users/Sandra/Documents/CleanData/DataCourseProject and the tables below were read.
 read.table("C:/Users/Sandra/Documents/CleanData/DataCourseProject/UCI HAR Dataset/activity_labels.txt")
 read.table("C:/Users/Sandra/Documents/CleanData/DataCourseProject/UCI HAR Dataset/features.txt")
